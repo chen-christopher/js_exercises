@@ -1,0 +1,139 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vh;
+}
+.content input {
+  width: 5vw;
+  height: 7.5vh;
+  /* height: fit-content; */
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 2.5em;
+}
+
+.content button {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  width: 9vw;
+  height: 6vh;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+  font-size: 1.2em;
+}
+.content button:hover {
+  background-color: white;
+  color: black;
+}
+.header {
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.empty {
+  display: none;
+}
+.errorText {
+  color: red;
+  font-size: 5em;
+}
+.content h2,
+h3 {
+  height: fit-content;
+  width: fit-content;
+}
+
+.content1 {
+  background-color: #cee5d0;
+  position: relative;
+}
+.content2 {
+  background-color: #f3f0d7;
+  position: relative;
+}
+.numberContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  /* gap: 3vh; */
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.numberContainer h4 {
+  text-align: center;
+  height: fit-content;
+  width: 7.5vw;
+  margin: 1vh 1.25vw 1vh 1.25vw;
+}
+
+.content3 {
+  background-color: #ff7878;
+  position: relative;
+}
+.content3 input {
+  width: 10vw;
+  height: 15vh;
+}
+.content3 button {
+  width: 5vw;
+  height: 7.5vh;
+  font-size: 3em;
+  text-align: center;
+}
+.content3 h2 {
+  font-size: 10em;
+}
+
+#operation {
+  width: 5vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 4em;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border: none;
+  border-radius: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  transition: 0.2s ease-in-out;
+}
+#operation:hover {
+  background-color: black;
+  color: white;
+}
+.operands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 2vh;
+}

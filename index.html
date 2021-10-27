@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>JS Exercises</title>
+  </head>
+  <body>
+    <div class="content content1">
+      <h1 class="header">
+        Something something months something something days...
+      </h1>
+      <h3 class="errorText empty"></h3>
+      <h2>Please enter a number between 1-12</h2>
+      <input type="text" id="month" name="month" />
+      <button class="submitButton" id="submitButton1">SUBMIT</button>
+      <h3 class="monthText empty"></h3>
+    </div>
+    <div class="content content2">
+      <h1 class="header">
+        fizz... buzz... fizzzzzzzzzzzbuzzzzzzz... fizzbuzz...
+      </h1>
+      <h2>Please START to well... get started?</h2>
+      <button class="submitButton" id="submitButton2">START</button>
+      <div class="empty numberContainer"></div>
+    </div>
+    <div class="content content3">
+      <h1 class="header">1 + 1 = 4? the goodest calculator there is</h1>
+      <div class="operands">
+        <input type="text" id="first" />
+        <select id="operation">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="text" id="second" />
+      </div>
+
+      <button class="submitButton" id="submitButton3">=</button>
+      <h2 id="answer">?</h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
