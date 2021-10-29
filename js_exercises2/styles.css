@@ -1,0 +1,22 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  height: fit-content;
+}
+h3 {
+  margin-top: 5vh;
+  height: fit-content;
+}
+
+body {
+  text-align: center;
+  background-color: #fdefef;
+}
