@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <div class="content">
+      <h1>gimme your email bro</h1>
+      <div class="inputDiv">
+        <input
+          class="inputStyle"
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="First name"
+        />
+        <input
+          class="inputStyle"
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Last name"
+        />
+        <input
+          class="inputStyle"
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
+        <input class="checkBox" type="checkbox" id="checkbox" name="checkbox" />
+        <button class="submitButton" id="submitButton1">SUBMIT</button>
+        <div class="loader none"></div>
+        <h3 class="endMessage none">Thanks for signing up!</h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      (function () {
+        app.initialize();
+      })();
+    </script>
+  </body>
+</html>
