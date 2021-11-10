@@ -1,3 +1,35 @@
+const app = {
+  initialize: () => {
+    $(".square").click((e) => {
+      console.log("clicked");
+      $(e.currentTarget).toggleClass("moveMe");
+    });
+
+    $(".circle").click((e) => {
+      $(e.currentTarget).toggleClass("moveMe");
+    });
+    $("#squareButton").click((e) => {
+      console.log("clicked");
+      app.addSquares();
+    });
+    $("#circleButton").click((e) => {
+      console.log("clicked");
+      app.delCircles();
+    });
+  },
+  addSquares: () => {
+    console.log("hello");
+    const newSquare = document.createElement("div");
+    newSquare.innerText = "new squares can't move...";
+    newSquare.classList.add("square");
+    $(".squares").append(newSquare);
+  },
+  delCircles: () => {
+    console.log("bye");
+    $(".circles").children().last().remove();
+  },
+};
+
 //declare elements
 let content1 = document.querySelector(".content1");
 let monthInput = document.getElementById("month");
@@ -134,3 +166,5 @@ submitButton3.addEventListener("click", function () {
   //changing innerhtml with result
   answer.innerText = result;
 });
+
+//other js_exercise
