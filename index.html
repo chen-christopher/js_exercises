@@ -68,6 +68,12 @@
       </div>
     </div>
 
+    <div class="content content5">
+      <h1 class="header">all these goodest bois and girls!!!</h1>
+      <img class="dogImg" />
+      <button id="refresh">NEXT</button>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- If you are loading any data, it must be added BEFORE your own script -->
     <!-- Lastly, my script -->
@@ -75,6 +81,8 @@
     <script>
       (function () {
         app.initialize();
+        dogApp.initialize();
+        dogApp.getData();
       })();
     </script>
   </body>
